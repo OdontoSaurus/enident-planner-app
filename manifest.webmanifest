@@ -1,0 +1,38 @@
+{
+  "name": "Enident Planner",
+  "short_name": "Enident",
+  "description": "Agenda per studi dentistici",
+  "lang": "it",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "fullscreen",
+    "standalone"
+  ],
+  "background_color": "#f8fafc",
+  "theme_color": "#ff7a1a",
+  "icons": [
+    {
+      "src": "icona-256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "icona-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icona-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icona.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<!-- Icona di Enident Planner: una "C" bianca che abbraccia un calendario, sul fondo arancione
+     (#FF7A1A, come il marchio). È l'origine delle icone del bundle, che si rigenerano con
+     `npm run tauri icon src-tauri/icons/sorgente.svg` (da desktop/); le cartelle android e ios
+     create dal comando si cancellano. Solo forme geometriche, senza font. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1254 1254">
+  <rect width="1254" height="1254" rx="255" fill="#FF7A1A"/>
+  <!-- il disegno (coordinate originali) ingrandito di 1,45 attorno al centro del riquadro, perché
+       riempia l'icona e si legga anche piccolo (es. nell'intestazione dell'app, a 28 px) -->
+  <g transform="translate(627 627) scale(1.45) translate(-627 -620.5)">
+  <g fill="#ffffff">
+    <!-- la C: braccio in alto e in basso tagliati in diagonale -->
+    <path d="M564 284 H822 L750 381 H555 A120 120 0 0 0 435 500 V750 A105 105 0 0 0 540 855 H924 L840 957 H540 A210 197 0 0 1 330 760 V506 A234 222 0 0 1 564 284 Z"/>
+    <!-- anelli del calendario -->
+    <rect x="587" y="436" width="46" height="107" rx="23"/>
+    <rect x="784" y="436" width="46" height="107" rx="23"/>
+    <!-- giorni -->
+    <rect x="578" y="575" width="65" height="66" rx="12"/>
+    <rect x="675" y="575" width="65" height="66" rx="12"/>
+    <rect x="771" y="575" width="65" height="66" rx="12"/>
+    <rect x="578" y="664" width="65" height="66" rx="12"/>
+    <rect x="675" y="664" width="65" height="66" rx="12"/>
+    <rect x="771" y="664" width="65" height="66" rx="12"/>
+  </g>
+  <!-- cornice del calendario, interrotta dove passano gli anelli -->
+  <g fill="none" stroke="#ffffff" stroke-width="38">
+    <path d="M572.5 496 A50 50 0 0 0 522.5 546 V728.5 A50 50 0 0 0 572.5 778.5 H844 A50 50 0 0 0 894 728.5 V546 A50 50 0 0 0 844 496 H846"/>
+    <path d="M649 496 H768"/>
+  </g>
+  </g>
+</svg>

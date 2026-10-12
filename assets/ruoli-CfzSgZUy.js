@@ -1,0 +1,1 @@
+var e=[`proprietario`,`admin`],t=[...e,`segreteria`];export{t as n,e as t};

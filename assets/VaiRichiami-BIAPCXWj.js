@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-Dk72oS4N.js";import{f as t}from"./hooks-BG6PZMO0.js";import{t as n}from"./components-BvbBJgiG.js";import{t as r}from"./navigazione-C1yqTnSQ.js";var i=e();function a(){let{studioId:e=``}=t();return(0,i.jsx)(n,{to:r(e),replace:!0,state:{apriRichiami:!0}})}export{a as VaiRichiami};

@@ -1,0 +1,1 @@
+function e(e){return e!==`prenotato`}function t(e,t){return e&&t?1:e||t?2:4}function n(n,{annullatiSotto:r,compatta:i,stretta:a}){let o=[];e(n.stato)&&o.push(`stato`),n.da_richiamare&&o.push(`richiamo`),r>0&&o.push(`annullati`),n.promemoria_inviato&&o.push(`promemoria`);let s=t(i,a);return{visibili:o.slice(0,s),nascoste:o.slice(s)}}export{n as t};

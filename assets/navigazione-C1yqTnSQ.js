@@ -1,0 +1,1 @@
+function e(e,t){return`/studi/${e}/agenda${t?`?giorno=${t}`:``}`}function t(e,t){return`/studi/${e}/pazienti${t?`/${t}`:``}`}export{t as n,e as t};

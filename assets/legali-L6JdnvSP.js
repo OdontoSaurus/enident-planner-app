@@ -1,0 +1,1 @@
+var e=`https://enident.it/termini`,t=`https://enident.it/privacy`,n=`https://enident.it/guida/`;export{t as n,e as r,n as t};
